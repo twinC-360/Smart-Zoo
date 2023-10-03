@@ -378,7 +378,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": 0,
                     "yaw": 120.0,
                     "type": "scene",
-                    "sceneid": "",
+                    "sceneId": "Intro Brillenpinguine",
                     "text": "",
                     "cssClass": "hpt_pinguin",
                     "clickHandlerFunc": onHotspotClick
@@ -441,7 +441,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": 5,
                     "yaw": 160.0,
                     "type": "scene",
-                    "sceneid": "",
+                    "sceneId": "",
                     "text": "",
                     "cssClass": "hpt_ballon_2",
                     "clickHandlerFunc": onHotspotClick
@@ -633,7 +633,7 @@ viewer = pannellum.viewer('panorama', {
                 },
 
 
-                ] // Ende aller Hotspots
+                ] 
         },
 
 
@@ -948,11 +948,11 @@ viewer = pannellum.viewer('panorama', {
 
               
                 {
-                    "pitch": 0,
-                    "yaw": -25.0, 
+                    "pitch": -4.56,
+                    "yaw": -23.52, 
                     "type": "Scene", 
                     "text": "Der Savannenelefant", 
-                    "sceneId": "Elefanten Einleitung",
+                    "sceneId": "",
                     "cssClass": "Der_Savannen_Elefant",
                     "createTooltipFunc": hotspot, 
                     "createTooltipArgs": "",  
@@ -961,12 +961,12 @@ viewer = pannellum.viewer('panorama', {
                 },
 
                 {
-                    "pitch": 0, 
-                    "yaw": 25.0,
+                    "pitch": -3.48, 
+                    "yaw": 22.2,
                     "type": "Scene",
                     "text": "Ins Gehege", 
                     "sceneId": "",
-                    "cssClass": "Ins_Gehege",
+                    "cssClass": "gehege",
                     "createTooltipFunc": hotspot, 
                     "createTooltipArgs": "",  
                     "clickHandlerFunc": onHotspotClick
@@ -974,8 +974,8 @@ viewer = pannellum.viewer('panorama', {
                 },
 
                 {
-                    "pitch": 0,
-                    "yaw": 90.0, 
+                    "pitch": -0.96,
+                    "yaw": 95.28, 
                     "type": "Scene",
                     "text": "Hauptmenü", 
                     "sceneId": "",
@@ -1013,10 +1013,533 @@ viewer = pannellum.viewer('panorama', {
 
             ]         
     },
+    "Elefanten_Einleitung_Still": { 
+
+        "title": "Einleitung Elefanten_Still", 
+        "hfov": 110, 
+        "pitch": 0,
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/78731/raw/media-78731-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.24,
+                "yaw": -36.48,
+                "type": "Info", 
+                "text": "Bedrohungsstatus",
+                "cssClass": "Elefanten_Einleitung_Still_Bedrohung", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Bedrohungsstatus", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": 0.1, 
+                "yaw": 117.96, 
+                "type": "Scene",
+                "text": "Hauptmenü",
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": -0.24, 
+                "yaw": -52.68, 
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 0.3, 
+                "yaw": 136.93,
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Intro_Elefanten",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot,   
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": -0.72,
+                "yaw": 43.38, 
+                "type": "Scene", 
+                "text": "Kann der Zoo helfen?",
+                "sceneId": "",
+                "cssClass": "Elefanten_Einleitung_Still_info_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Kann der Zoo helfen?", 
+                "clickHandlerFunc": onHotspotClick
+            },                                
+            {
+                "pitch": -15.94, 
+                "yaw": 17.96, 
+                "type": "Scene",
+                "text": "Was bedroht den Elefanten?", 
+                "sceneId": "",
+                "cssClass": "Elefanten_Einleitung_Still_info_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Was bedroht den Elefanten?",
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 21.64,
+                "yaw": 76.07,
+                "type": "Info", 
+                "text": "Big Life Foundation", 
+                "cssClass": "play", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            }
+        ]
+    },
+    "Elefant - Wie kann geholfen werden": { 
+        "title": "Elefant - Wie kann geholfen werden", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/78731/raw/media-78731-raw.png?", 
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.36, 
+                "yaw": -44.16,
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick
+            }, 
+
+            {
+                "pitch": -0.6,
+                "yaw": 67.2, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -0.24,
+                "yaw": 81.6, 
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Elefanten_Einleitung_Still",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": -0.6, 
+                "yaw": 31.2, 
+                "type": "Info", 
+                "text": "Big Life Foundation", 
+                "cssClass": "play", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+        ]
+    },
+    "Was bedroht den Elefanten": { 
+        "title": "Was bedroht den Elefanten", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/78731/raw/media-78731-raw.png?", 
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.36, 
+                "yaw": -44.16,
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick
+            }, 
+
+            {
+                "pitch": -0.6,
+                "yaw": 67.2, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -0.24,
+                "yaw": 81.6, 
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Elefanten_Einleitung_Still",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -0.49, 
+                "yaw": -109.66, 
+                "type": "Info", 
+                "text": "Big Life Foundation", 
+                "cssClass": "play", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": 5.04, 
+                "yaw": 32.58, 
+                "type": "Scene", 
+                "text": "Kann der Zoo helfen ?", 
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Kann der Zoo helfen?", 
+                "clickHandlerFunc": onHotspotClick
+            },
+        ]
+    },
+    "Elefantengehege kommen aus Stall_Still": { 
+        "title": "Einleitung Elefanten_Still", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92985/raw/media-92985-raw.png?", 
+
+
+        "hotSpots": [ 
+    
+            {
+                "pitch": 3, 
+                "yaw": -110.28, 
+                "type": "Scene", 
+                "text": "Hauptmenü",
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": 3, 
+                "yaw": -122.16, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Elefanten_Einleitung_Still",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 3, 
+                "yaw": -98.76, 
+                "type": "Scene", 
+                "text": "Weiter", 
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 33.96,
+                "yaw": -62.76, 
+                "type": "Info", 
+                "text": "Steckbrief", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_kommen_aus_Stall_Still_Steckbrief ", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 39.36, 
+                "yaw": -39.72, 
+                "type": "Info", 
+                "text": "Bild", 
+                "cssClass": "Elefantengehege_kommen_aus_Stall_Still_img_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            }, 
+            {
+                "pitch": 40.08, 
+                "yaw": -17.04,    
+                "type": "Info", 
+                "text": "Bild", 
+                "cssClass": "Elefantengehege_kommen_aus_Stall_Still_img_2",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 33.6,
+                "yaw": 9.6, 
+                "type": "Scene", 
+                "text": "Drohnenflug", 
+                "sceneId": "",
+                "cssClass": "drohne", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            }
+
+        ] 
+    },
+    "Elefantengehege spielen mit ast_Still": { 
+        "title": "Elefanten spielen mit ast_Still", 
+        "hfov": 110, 
+        "pitch": 0,
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92981/raw/media-92981-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -15.36, 
+                "yaw": 112.92, 
+                "type": "Scene", 
+                "text": "Hauptmenü",
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -15.36, 
+                "yaw": 97.44, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Elefantengehege kommen aus Stall_Still",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -15.36,
+                "yaw": 127.32, 
+                "type": "Scene", 
+                "text": "Weiter ",
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter",
+                "clickHandlerFunc": onHotspotClick
+            },
+
+
+            {
+                "pitch": -9.24, 
+                "yaw": -89.04, 
+                "type": "Info", 
+                "text": "Fun Fact", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_spielen_mit_ast_Still_funfact", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+
+        ] 
+    },
+    "Elefantengehege intervention": { 
+
+        "title": "Elefantengehege intervention", 
+        "hfov": 110, 
+        "pitch": 0,
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92971/raw/media-92971-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.72, 
+                "yaw": 149.22, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -1.08,
+                "yaw": -135.9,
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Elefantengehege spielen mit ast_Still",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick
+            },
 
 
 
-        // ALADRIAN
+            {
+                "pitch": 0.48, 
+                "yaw": 25.44, 
+                "type": "Scene",
+                "text": "Quiz- Was wiegt wohl ein ausgewachsener Elefantenbulle?", 
+                "sceneId": "Elefantengehege intervention Quiz",
+                "cssClass": "quiz", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Quiz", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": -0.36, 
+                "yaw": -11.7, 
+                "type": "Scene", 
+                "text": "Drohnenflug", 
+                "sceneId": "",
+                "cssClass": "drohne", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+        ]
+    },
+
+    "Elefantengehege intervention Quiz": { 
+
+        "title": "Elefantengehege intervention", 
+        "hfov": 110, 
+        "pitch": 0,
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92971/raw/media-92971-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.72, 
+                "yaw": 149.22, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": -1.08,
+                "yaw": -135.9,
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Elefantengehege spielen mit ast_Still",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick
+
+            },
+
+            {
+                "pitch": 20, 
+                "yaw": 30.44, 
+                "type": "Scene",
+                "text": "Quiz- Was wiegt wohl ein ausgewachsener Elefantenbulle?", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_intervention_Quiz_img_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+            {
+                "pitch": 0, 
+                "yaw": 5.44, 
+                "type": "Scene",
+                "text": "Quiz- Was wiegt wohl ein ausgewachsener Elefantenbulle?", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_intervention_Quiz_img_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": 0, 
+                "yaw": 30.44, 
+                "type": "Scene",
+                "text": "Quiz- Was wiegt wohl ein ausgewachsener Elefantenbulle?", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_intervention_Quiz_img_3", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+            {
+                "pitch": 0, 
+                "yaw": 55.44, 
+                "type": "Scene",
+                "text": "Quiz- Was wiegt wohl ein ausgewachsener Elefantenbulle?", 
+                "sceneId": "",
+                "cssClass": "Elefantengehege_intervention_Quiz_img_4", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+
+
+
+            {
+                "pitch": -0.36, 
+                "yaw": -11.7, 
+                "type": "Scene", 
+                "text": "Drohnenflug", 
+                "sceneId": "",
+                "cssClass": "drohne", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick
+            },
+        ]
+    },
+
+        // ARALANDIA
 
 
 
@@ -1686,7 +2209,7 @@ viewer = pannellum.viewer('panorama', {
                         "yaw": 15.36,
                         "type": "Scene",
                         "text": "Zurueck",
-                        "sceneId": "",
+                        "sceneId": "Aras Standort vor Brücke Voliere zum Verlieben_Still",
                         "cssClass": "backward_",
                         "createTooltipFunc": hotspot, 
                         "createTooltipArgs": "Zurück",
@@ -1765,153 +2288,812 @@ viewer = pannellum.viewer('panorama', {
             "hotSpots": [ 
 
                 {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Hauptmenue", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "Hauptmenuebutton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Hauptmenü", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Zurueck zur Brücke", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "VorwaertsButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Zurück zur Brücke", //Bleibt gleich
-
-                },
-               
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Beweggründe", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Beweggründe", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "25 Jahre Investitionen", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "25 Jahre Investitionen", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Die Zoogründung", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Die Zoogründung", //Bleibt gleich
-
-                },
-               
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Die Pinguinale", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Die Pinguinale", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Zurueck zum Baumstamm", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "VorwaertsButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Zurück zum Baumstamm", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Mehr über den Zooverein", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
-                    "createTooltipFunc": hotspot, //Bleibt gleich
-                    "createTooltipArgs": "Mehr über den Zooverein", //Bleibt gleich
-
-                },
-
-                {
-                    "pitch": 0, // (Oben / Unten) 0 = mittig
-                    "yaw": 90.0, // (Rechts / Links) 360 °= Gerade aus
-                    "type": "Scene", // Entweder Scene oder Info in die Gänsefüschen | Scene wird verwendet falls der Hotspot zu einer anderen Scene(Seite) führen soll. | Info wird bei einem normalen Bild verwendet.
-                    "text": "Wie kann ich Mitglied werden?", // Titel für den Hotspot | Nichts spezifisches
-                    "sceneId": "",// Wird nur im Falle von "type": "scene" verwendet (Beispiel oben) ansonsten kann diese Zeile gelöscht werden | Titel der Scene (Z.66)
-                    "cssClass": "InfoButton", // Name der Css-Klasse siehe Z.40 (Style) | Muss genau gleich geschrieben werden (Großschreibung)
+                    "pitch": 0.6,
+                    "yaw": 117.24, 
+                    "type": "Scene", 
+                    "text": "Hauptmenue", 
+                    "sceneId": "menü",
+                    "cssClass": "home", 
                     "createTooltipFunc": hotspot,
-                    "createTooltipArgs": "Wie kann ich Mitglied werden?", //Bleibt gleich
-
+                    "createTooltipArgs": "Hauptmenü", 
+                    "clickHandlerFunc": onHotspotClick,
                 },
 
                 {
-                    "pitch": 0, 
-                    "yaw": 90.0,
+                    "pitch": -25.08,
+                    "yaw": 140.64,
+                    "type": "Scene", 
+                    "text": "Zurueck zur Brücke",
+                    "sceneId": "Aras Standort 2.2 vor der Brücke_Still",
+                    "cssClass": "up", 
+                    "createTooltipFunc": hotspot,
+                    "createTooltipArgs": "Zurück zur Brücke", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+               
+                {
+                    "pitch": -6.72, 
+                    "yaw": 90.96, 
+                    "type": "Scene", 
+                    "text": "Beweggründe", 
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_1", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Beweggründe",
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": 22.03, 
+                    "yaw": 89.11, 
+                    "type": "Scene", 
+                    "text": "25 Jahre Investitionen", 
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_2",
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "25 Jahre Investitionen", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": -5.28, 
+                    "yaw": 43.44,
+                    "type": "Scene", 
+                    "text": "Die Zoogründung", 
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_3", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Die Zoogründung",
+                    "clickHandlerFunc": onHotspotClick,
+                },
+               
+
+                {
+                    "pitch": 19.26, 
+                    "yaw": 42.88, 
+                    "type": "Scene",
+                    "text": "Die Pinguinale", 
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_4", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Die Pinguinale", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": -33.72, 
+                    "yaw": 13.56, 
+                    "type": "Scene", 
+                    "text": "Zurueck zum Baumstamm", 
+                    "sceneId": "Aras Standort 4 - Baumstamm_Still",
+                    "cssClass": "up_1", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Zurück zum Baumstamm", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": 7.92, 
+                    "yaw": -73.98,
+                    "type": "Scene", 
+                    "text": "Mehr über den Zooverein",
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_5", 
+                    "createTooltipFunc": hotspot,
+                    "createTooltipArgs": "Mehr über den Zooverein", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": -11.76, 
+                    "yaw": -74.28,
+                    "type": "Scene", 
+                    "text": "Wie kann ich Mitglied werden?",
+                    "sceneId": "",
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_info_6", 
+                    "createTooltipFunc": hotspot,
+                    "createTooltipArgs": "Wie kann ich Mitglied werden?", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": 9.36, 
+                    "yaw": -109.98,
                     "type": "Scene", 
                     "text": "Zooverein", 
                     "sceneId": "",
-                    "cssClass": "InfoButton",
+                    "cssClass":"Aras_Standort_2_3_im_Tunnel_mood_info_7",
                     "createTooltipFunc": hotspot, 
                     "createTooltipArgs": "Zooverein", 
+                    "clickHandlerFunc": onHotspotClick,
                 },
                
                 {
-                    "pitch": 0, 
-                    "yaw": 90.0, 
+                    "pitch": -13.56, 
+                    "yaw": -109.92, 
                     "type": "Info", 
                     "text": "Sonnensittiche", 
                     "sceneId": "",
-                    "cssClass": "Imagebutton", 
+                    "cssClass": "Aras_Standort_2_3_im_Tunnel_mood_img", 
                     "createTooltipFunc": hotspot, 
                     "createTooltipArgs": "Sonnensittiche",  
-
+                    "clickHandlerFunc": onHotspotClick,
                 },
 
                 {
                     "pitch": 0, 
-                    "yaw": 90.0, 
+                    "yaw": -161.0, 
                     "type": "Scene", 
                     "text": "Alltag der Tierärztin",
                     "sceneId": "",
                     "cssClass": "TierarztButton", 
                     "createTooltipFunc": hotspot,
                     "createTooltipArgs": "Alltag der Tierärztin", 
-
+                    "clickHandlerFunc": onHotspotClick,
                 },
             ]
-        }
+        },
+        "Aras Standort 2.1 vor dem Felsen_Still": { 
+            "title": "Aralandia", 
+            "hfov": 110, 
+            "pitch": 0, 
+            "yaw": 360, 
+            "type": "equirectangular",
+            "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92986/raw/media-92986-raw.png?",
 
+            "hotSpots": [ 
+        
+
+                {
+                    "pitch": 18.48,
+                    "yaw": -60.24, 
+                    "type": "Scene",
+                    "text": "Steckbrief Sonnensittiche",
+                    "sceneId": "",
+                    "cssClass": "Sonnensittich_Steckbrief", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "",
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": -39.84, 
+                    "yaw": 6.0, 
+                    "type": "Scene",
+                    "text": "Besonderheiten der Aras", 
+                    "sceneId": "",
+                    "cssClass": "up", 
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Besonderheiten der Aras", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+                {
+                    "pitch": -21.12, 
+                    "yaw": 59.28,
+                    "type": "Scene", 
+                    "text": "Hauptmenue",
+                    "sceneId": "menü",
+                    "cssClass": "home",
+                    "createTooltipFunc": hotspot, 
+                    "createTooltipArgs": "Hauptmenü", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+
+                {
+                    "pitch": -20.76, 
+                    "yaw": 70.8, 
+                    "type": "Scene", 
+                    "text": "Zurueck", 
+                    "sceneId": "Aralandia Einleitung_Still",
+                    "cssClass": "forward_",
+                    "createTooltipFunc": hotspot,
+                    "createTooltipArgs": "Zurück", 
+                    "clickHandlerFunc": onHotspotClick,
+                },
+
+
+            ] 
+    },
+    "Aras Standort vor Brücke besonderheiten_Still": { 
+        "title": "Aralandia", 
+        "hfov": 110,
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92998/raw/media-92998-raw.png?", 
+        "hotSpots": [
+    
+
+            {
+                "pitch": 0.36, 
+                "yaw": 15.24,
+                "type": "Scene", 
+                "text": "Eine Voliere zum Verlieben",
+                "sceneId": "",
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Eine Voliere zum Verlieben", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -35.52,
+                "yaw": 33.36, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Aras Standort 2.1 vor dem Felsen_Still",
+                "cssClass": "up",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            
+            {
+                "pitch": 0.36, 
+                "yaw": 66.06, 
+                "type": "Scene", 
+                "text": "Hauptmeue", 
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -36.36, 
+                "yaw": 127.98, 
+                "type": "Scene",
+                "text": "Unsere Unterstuetzer", 
+                "sceneId": "",
+                "cssClass": "up_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Unsere Unterstützer", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.72, 
+                "yaw": 98.1,
+                "type": "Info",
+                "text": "Zoo Verein", 
+                "sceneId": "",
+                "cssClass": "Zoovereinsschild",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+
+        ] 
+    },
+    "Aras Standort vor Brücke Voliere zum Verlieben_Still": { 
+        "title": "Aralandia", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360,
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92995/raw/media-92995-raw.png?", 
+
+        "hotSpots": [ 
+    
+
+            {
+                "pitch": 0,
+                "yaw": 69.66, 
+                "type": "Scene", 
+                "text": "Hauptmenue",
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -27.96, 
+                "yaw": 33.72, 
+                "type": "Scene", 
+                "text": "Zurueck", 
+                "sceneId": "Aras Standort 2.1 vor dem Felsen_Still",
+                "cssClass": "up", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.72, 
+                "yaw": 98.1,
+                "type": "Info", 
+                "text": "Zoo Verein", 
+                "sceneId": "",
+                "cssClass": "Zoovereinsschild", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -36.36,
+                "yaw": 127.98, 
+                "type": "Scene", 
+                "text": "Unsere Unterstuetzer",
+                "sceneId": "",
+                "cssClass": "up_1",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Unsere Unterstützer", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 7.08, 
+                "yaw": 43.8, 
+                "type": "Info", 
+                "text": "Image", 
+                "sceneId": "",
+                "cssClass": "Aras_Standort_vor_Brücke_Voliere_zum_Verlieben_Still_img", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -42.12,
+                "yaw": -10.8, 
+                "type": "Scene", 
+                "text": "Auf die Bruecke", 
+                "sceneId": "",
+                "cssClass": "up_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Auf die Brücke", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.24,
+                "yaw":-100.2, 
+                "type": "Scene", 
+                "text": "Zum Baumstamm", 
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zum Baumstamm",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+
+        ]
+    },
+    "Mood Tierärztin": { 
+        "title": "Aralandia", 
+        "hfov": 110,
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/82380/raw/media-82380-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.36,
+                "yaw": -87.3,
+                "type": "Scene", 
+                "text": "Hauptmenue", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.1, 
+                "yaw": -56.71, 
+                "type": "Scene",
+                "text": "Zurueck",
+                "sceneId": "Aras Standort 2.3 im Tunnel mood",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück zu Aralandia", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 5.52, 
+                "yaw": 79.8,
+                "type": "Scene", 
+                "text": "Vor der Untersuchung", 
+                "sceneId": "",
+                "cssClass": "Mood_Tierärztin_info_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Vor der Untersuchung",
+                "clickHandlerFunc": onHotspotClick,
+            },
+           
+            {
+                "pitch": 6.24,
+                "yaw": 42.36,
+                "type": "Scene", 
+                "text": "Ankunft neuer Tiere",
+                "sceneId": "",
+                "cssClass": "Mood_Tierärztin_info_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ankunft neuer Tiere", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 5.52,
+                "yaw": 115.44, 
+                "type": "Scene", 
+                "text": "Untersuchungsraum", 
+                "sceneId": "",
+                "cssClass": "Mood_Tierärztin_info_3", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Untersuchungsraum", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ]
+    },
+    "Wie fängt man Tiere bei Untersuchungen_Still": { 
+        "title": "Aralandia", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92984/raw/media-92984-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.72, 
+                "yaw": -100.62, 
+                "type": "Scene",
+                "text": "Hauptmenue", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": -72.84,
+                "type": "Scene", 
+                "text": "Zurueck", 
+                "sceneId": "Mood Tierärztin",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 24.48, 
+                "yaw": -40.86,
+                "type": "Info", 
+                "text": "Falle Aras", 
+                "sceneId": "",
+                "cssClass": "info",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            }
+        ]
+    },
+    "Ankunft eines neuen Tieres": { 
+        "title": "Aralandia", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/82380/raw/media-82380-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.84, 
+                "yaw": 95.64, 
+                "type": "Scene", 
+                "text": "Hauptmenue", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": -72.84, 
+                "type": "Scene", 
+                "text": "Zurueck", 
+                "sceneId": "Mood Tierärztin",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 1.2,
+                "yaw": 74.04,
+                "type": "Scene", 
+                "text": "Geburten im Zoo", 
+                "sceneId": "",
+                "cssClass": "info",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Geburten im Zoo",
+                "clickHandlerFunc": onHotspotClick, 
+            },
+        ]
+    },
+
+
+
+    // Brillen Pinguine
+
+
+    "Intro Brillenpinguine": {
+        "title": "Intro Brillenpinguine", 
+        "hfov": 110,
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92973/raw/media-92973-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 24.13, 
+                "yaw": -38.92, 
+                "type": "Scene", 
+                "text": "Der Brillenpinguin",
+                "sceneId": "",
+                "cssClass": "Intro_Brillenpinguine_img_1",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 13.73, 
+                "yaw": 34.18, 
+                "type": "Scene", 
+                "text": "Ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.96, 
+                "yaw": 95.28, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -3.66, 
+                "yaw": -19.96, 
+                "type": "Info", 
+                "text": "Pinguin", 
+                "sceneId": "",
+                "cssClass": "Intro_Brillenpinguine_img_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -31.71, 
+                "yaw": 0.59, 
+                "type": "Info", 
+                "text": "Begruessung Pinguine", 
+                "sceneId": "",
+                "cssClass": "Intro_Brillenpinguine_img_3", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ] 
+    },
+    "Einleitung Brillenpinguine_Still": { 
+
+        "title": "Einleitung Brillenpinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92977/raw/media-92977-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 8.04, 
+                "yaw": 41.28,
+                "type": "Scene",
+                "text": "Besonderheiten", 
+                "sceneId": "",
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Besonderheiten",
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 8.4, 
+                "yaw": 71.52, 
+                "type": "Scene",
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 7.41, 
+                "yaw": 107.29, 
+                "type": "Scene",
+                "text": "Zurück", 
+                "sceneId": "",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+        ] 
+    },
+    "Brillenpinguine - Besonderheiten_Still": { 
+        "title": "Besonderheiten Brillenpinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92977/raw/media-92977-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 5.52, 
+                "yaw": 38.4, 
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "Intro_Brillenpinguine_img_1",
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 5.04,
+                "yaw": 75.06, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 5.43, 
+                "yaw": 108.47, 
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Intro Brillenpinguine",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+
+        ]
+    },
+    "Gehege Brillenpinguine_Still": { 
+        "title": "Gehege Brillenpinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92994/raw/media-92994-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.49, 
+                "yaw": 137.32, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": 117.6, 
+                "type": "Scene", 
+                "text": "Zurück",
+                "sceneId": "Intro Brillenpinguine",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.24, 
+                "yaw": 39.48, 
+                "type": "Scene",
+                "text": "Weiter zur Fütterung", 
+                "sceneId": "",
+                "cssClass": "up",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter zur Fütterung", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": -68.52, 
+                "type": "Info", 
+                "text": "Speaker-Zoo-29", 
+                "sceneId": "",
+                "cssClass": "audio", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -17.52, 
+                "yaw": -120.36, 
+                "type": "Info", 
+                "text": "Fun Fact",
+                "sceneId": "",
+                "cssClass": "Gehege_Brillenpinguine_Still_funfact", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Fun Fact",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -7.44, 
+                "yaw": -161.76, 
+                "type": "Info", 
+                "text": "Steckbrief", 
+                "sceneId": "",
+                "cssClass": "Gehege_Brillenpinguine_Still_steckbrief", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Steckbrief", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+
+        ] 
+    },
     }
-
 });
 player = videojs('video', {
 
@@ -1925,7 +3107,7 @@ player2 = videojs('video2', {
 
 });
 
-}
+
 
 
 var playing = false;
@@ -1937,6 +3119,10 @@ var currentScreen = null;
 var current = new Audio("https://cdn.mobfish.studio/zoowuppertal/media/78690/raw/media-78690-raw.mp3");
 
 var lastButton = null;
+
+var sceneToLoad;
+
+var goon = true;
 
 function hotspot(hotSpotDiv, args) {
     hotSpotDiv.classList.add('custom-tooltip');
@@ -1980,7 +3166,185 @@ function onHotspotClick(event){
             break;
     }
 }
+if(currentScreen == "menü") {
+    switch(hotspot){
+        case "hpt_ballon_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82039/raw/media-82039-raw.mp4"})
+            break;
+        case "hpt_ballon_2":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Intro_Elefanten"){
+    switch(hotspot){
+        case "Der_Savannen_Elefant":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82046/raw/media-82046-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82152/HD/media-82152-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Elefanten_Einleitung_Still"){
+    switch(hotspot){
+        case ("play"):
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            document.getElementById("video").style.width = "0"
+            document.getElementById("video").style.height = "0" 
+            player2.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/78051/raw/media-78051-raw.mp4"})
+            break;
+        case "Elefanten_Einleitung_Still_info_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82051/raw/media-82051-raw.mp4"})
+            break;
+        case "Elefanten_Einleitung_Still_info_2":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82047/raw/media-82047-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82152/HD/media-82152-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Elefant - Wie kann geholfen werden"){
+    switch(hotspot){
+        case ("play"):
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            document.getElementById("video").style.width = "0"
+            document.getElementById("video").style.height = "0" 
+            player2.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/78051/raw/media-78051-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82152/HD/media-82152-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Was bedroht den Elefanten"){
 
+    switch(hotspot){
+
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82051/raw/media-82051-raw.mp4"})
+            break;
+        case "play":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            document.getElementById("video").style.width = "0"
+            document.getElementById("video").style.height = "0" 
+            player2.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/77807/raw/media-77807-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82152/HD/media-82152-raw.mp4"})
+            break;
+    }
+
+}
+if(currentScreen == "Elefantengehege kommen aus Stall_Still"){
+    switch(hotspot){
+        case "drohne":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81234/HD/media-81234-raw.mp4"})
+            break;
+        case "forward_":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82160/raw/media-82160-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Elefantengehege spielen mit ast_Still"){
+    switch(hotspot){
+        case "forward_":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82159/fullHD/media-82159-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Elefantengehege intervention" || currentScreen == "Elefantengehege intervention Quiz"){
+    switch(hotspot){
+        case "drohne":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81234/4k/media-81234-raw.mp4"})
+            break;
+        case "Elefantengehege_intervention_Quiz_img_1":
+            playSound("https://cdn.mobfish.studio/zoowuppertal/media/81711/raw/media-81711-raw.mp3")
+            break;
+        case "Elefantengehege_intervention_Quiz_img_2":
+            hotspotElement.setAttribute("style","border: 8px solid red; border-radius: 6px;")
+            break;
+        case "Elefantengehege_intervention_Quiz_img_3":
+            playSound("https://cdn.mobfish.studio/zoowuppertal/media/81712/raw/media-81712-raw.mp3")
+            hotspotElement.setAttribute("style","border: 8px solid lime; border-radius: 6px;")
+            setTimeout(()=> {
+                viewer.loadScene("Elefantengehege intervention")
+            },8000);
+            break;
+        case "Elefantengehege_intervention_Quiz_img_4":
+            hotspotElement.setAttribute("style","border: 8px solid red; border-radius: 6px;")
+            break;
+    }
+}
+if(currentScreen == "Mood Tierärztin"){
+    switch(hotspot){
+        case "Mood_Tierärztin_info_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82040/raw/media-82040-raw.mp4"})
+            break;
+        case "Mood_Tierärztin_info_2":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82037/raw/media-82037-raw.mp4"})
+            break;
+        case "Mood_Tierärztin_info_3":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82157/raw/media-82157-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Wie fängt man Tiere bei Untersuchungen_Still"){
+    switch(hotspot){
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82379/raw/media-82379-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Ankunft eines neuen Tieres"){
+    switch(hotspot){
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82041/raw/media-82041-raw.mp4"})
+            break;
+    }
+}
 if(currentScreen == "Intro_Roter_Panda") {
    
   
@@ -2031,7 +3395,8 @@ if(currentScreen == "Roter Panda Gehege_Still") {
 
 }
 
-if(currentScreen == "Roter Panda Gehege 2_Still" || "Quiz"){
+if(currentScreen == "Roter Panda Gehege 2_Still" || currentScreen == "Quiz"){
+    
     switch(hotspot){
         case "audio":
 
@@ -2039,6 +3404,7 @@ if(currentScreen == "Roter Panda Gehege 2_Still" || "Quiz"){
             break;
 
         case "play":
+            
             document.getElementById("panorama").style.width = "0"
             document.getElementById("panorama").style.height = "0" 
             document.getElementById("video").style.width = "0"
@@ -2062,10 +3428,14 @@ if(currentScreen == "Roter Panda Gehege 2_Still" || "Quiz"){
             hotspotElement.setAttribute("style","border: 8px solid red; border-radius: 6px;")
             break;
     }
+}    
 if(currentScreen == "Aralandia Intro") {
     switch(hotspot){
 
         case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81858/raw/media-81858-raw.mp4"})
             break;
         case "Hyazinth-AraButton":
             document.getElementById("panorama").style.width = "0"
@@ -2084,20 +3454,117 @@ if(currentScreen == "Aralandia Einleitung_Still"){
             document.getElementById("panorama").style.height = "0" 
             player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81859/raw/media-81859-raw.mp4"})
             break;
+        case "backward_":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82035/raw/media-82035-raw.mp4"})
+            break;
+    }
+
+}
+if(currentScreen == "Aras Standort vor Brücke besonderheiten_Still"){
+    switch(hotspot){
+        case "up_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            break;
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82378/raw/media-82378-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Aras Standort vor Brücke Voliere zum Verlieben_Still"){
+    switch(hotspot){
+        case"up_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            break;
+        case"up_2":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/80991/raw/media-80991-raw.mp4"})
+            break;
+        case"forward_":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81797/HD/media-81797-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Aras Standort 2.1 vor dem Felsen_Still"){
+    switch(hotspot){
+        case "up":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82033/raw/media-82033-raw.mp4"})
+            break;
     }
 
 }
 if(currentScreen === "Aras Standort 2.2 vor der Brücke_Still") {
     switch(hotspot){
         case "backward_1":
+            sceneToLoad = "Aras Standort 3 Auf der Brücke_Still"
             document.getElementById("panorama").style.width = "0"
             document.getElementById("panorama").style.height = "0" 
             player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81858/raw/media-81858-raw.mp4"})
             break;
         case "forward_":
+            sceneToLoad = "Aras Standort 4 - Baumstamm_Still"
             document.getElementById("panorama").style.width = "0"
             document.getElementById("panorama").style.height = "0" 
             player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81797/4k/media-81797-raw.mp4"})
+            break;
+        case "up":
+            sceneToLoad = "Aras Standort 2.3 im Tunnel mood";
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Aras Standort 2.3 im Tunnel mood"){
+    switch(hotspot){
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82042/raw/media-82042-raw.mp4"})
+            break;
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_2":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82111/raw/media-82111-raw.mp4"})
+            break;
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_3":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82043/raw/media-82043-raw.mp4"})
+            break;
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_4":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            break;
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_5":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82198/raw/media-82198-raw.mp4"})
+            break;
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_6":
+            window.open("https://www.wuppertal.de/zoo-verein-wuppertal")
+        case "Aras_Standort_2_3_im_Tunnel_mood_info_7":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82112/raw/media-82112-raw.mp4"})
+            break;
+        case"TierarztButton":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82039/raw/media-82039-raw.mp4"})
             break;
     }
 }
@@ -2110,7 +3577,7 @@ if(currentScreen === "Aras Standort 3 Auf der Brücke_Still"){
             document.getElementById("panorama").style.height = "0" 
             player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81797/3k/media-81797-raw.mp4"})
             break;
-    }ss
+    }
 }
 if(currentScreen == "Aras Standort 4 - Baumstamm_Still"){
     switch(hotspot) {
@@ -2128,6 +3595,11 @@ if(currentScreen == "Aras Standort 4 - Baumstamm_Still"){
             document.getElementById("panorama").style.width = "0"
             document.getElementById("panorama").style.height = "0" 
             player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81858/raw/media-81858-raw.mp4"})
+            break;
+        case "up_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
             break;
     }
 }
@@ -2165,6 +3637,57 @@ if(currentScreen == "Aras Standort 5"){
             break;
     }
 }
+if(currentScreen == "Intro Brillenpinguine"){
+
+    switch(hotspot){
+
+        case "Intro_Brillenpinguine_img_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82052/raw/media-82052-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/80962/raw/media-80962-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Einleitung Brillenpinguine_Still"){
+
+    switch(hotspot){
+
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82165/raw/media-82165-raw.mp4"})
+            break;
+        
+    }
+
+}
+if(currentScreen == "Brillenpinguine - Besonderheiten_Still") {
+    switch(lastButton){
+        case "Intro_Brillenpinguine_img_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/80962/raw/media-80962-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Gehege Brillenpinguine_Still") {
+    
+    switch (lastButton) {
+        case "audio":
+             playSound("https://cdn.mobfish.studio/zoowuppertal/media/81241/raw/media-81241-raw.mp3")
+        case "up":
+            goon = true;
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/80963/raw/media-80963-raw.mp4"})
+            break;
+    }
+}
 };
 
 viewer.on('scenechange', function(sceneid) {
@@ -2177,7 +3700,9 @@ viewer.on('scenechange', function(sceneid) {
          backgroundSound.pause();
          backgroundSound = null;
     }
-
+    if(sceneid ==  "Elefantengehege intervention Quiz"){
+        playSound("https://cdn.mobfish.studio/zoowuppertal/media/81711/raw/media-81711-raw.mp3")
+    }
     if(sceneid == "onboarding") {
         
         playSound("https://cdn.mobfish.studio/zoowuppertal/media/78685/raw/media-78685-raw.mp3");
@@ -2192,7 +3717,7 @@ viewer.on('scenechange', function(sceneid) {
     if(sceneid == "Quiz") {
             
     }
-
+    
     if(sceneid == "Aras -Actioncam_Still_Quiz"){
         playSound("https://cdn.mobfish.studio/zoowuppertal/media/78732/raw/media-78732-raw.mp3");
     }
@@ -2214,7 +3739,113 @@ function playSound(url) {
     playing = true; 
 }
 player.on("ended", function() {
+    if(currentScreen == "menü") {
+        switch(lastButton){
+            case "hpt_ballon_1":
+                viewer.loadScene("Mood Tierärztin")
+                document.getElementById("panorama").removeAttribute("style")
+            case "hpt_ballon_2":
+                viewer.loadScene("Aras Standort 2.3 im Tunnel mood")
+                document.getElementById("panorama").removeAttribute("style")
+        }
+    }
+    if(currentScreen == "Intro_Elefanten"){
+        switch(hotspot){
+            case "Der_Savannen_Elefant":
+                viewer.loadScene("Elefanten_Einleitung_Still")
+                document.getElementById("panorama").removeAttribute("style")
+            case "gehege":
+                viewer.loadScene("Elefantengehege kommen aus Stall_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
 
+    if(currentScreen == "Elefanten_Einleitung_Still"){
+        switch(hotspot){
+            case "Elefanten_Einleitung_Still_info_1":
+                viewer.loadScene("Elefant - Wie kann geholfen werden")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Elefanten_Einleitung_Still_info_2":
+                viewer.loadScene("Was bedroht den Elefanten")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "gehege":
+                viewer.loadScene("Elefantengehege kommen aus Stall_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Was bedroht den Elefanten"){
+
+        switch(hotspot){
+    
+            case "info":
+                viewer.loadScene("Elefant - Wie kann geholfen werden")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "gehege":
+                viewer.loadScene("Elefantengehege kommen aus Stall_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Elefantengehege kommen aus Stall_Still"){
+        switch(hotspot){
+            case "drohne":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "forward_":
+                viewer.loadScene("Elefantengehege spielen mit ast_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Elefantengehege spielen mit ast_Still"){
+        switch(hotspot){
+            case "forward_":
+                viewer.loadScene("Elefantengehege intervention")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Elefantengehege intervention" || currentScreen == "Elefantengehege intervention Quiz"){
+        switch(hotspot){
+            case "drohne":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Mood Tierärztin"){
+        switch(hotspot){
+            case "Mood_Tierärztin_info_1":
+                viewer.loadScene("Wie fängt man Tiere bei Untersuchungen_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Mood_Tierärztin_info_2":
+                viewer.loadScene("Ankunft eines neuen Tieres")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Mood_Tierärztin_info_3":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Wie fängt man Tiere bei Untersuchungen_Still"){
+        switch(hotspot){
+            case "info":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Ankunft eines neuen Tieres"){
+        switch(hotspot){
+            case "info":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
     if(currentScreen == "Intro_Roter_Panda"){
         switch(lastButton) {
             case "gehege":
@@ -2243,6 +3874,11 @@ player.on("ended", function() {
             case "Hyazinth-AraButton":
                 viewer.loadScene("Aralandia Einleitung_Still")
                 document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "gehege":
+                viewer.loadScene("Aras Standort 3 Auf der Brücke_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
         }
     }
     if(currentScreen == "Aralandia Einleitung_Still") {
@@ -2251,9 +3887,46 @@ player.on("ended", function() {
                 viewer.loadScene("Aras Standort 5")
                 document.getElementById("panorama").removeAttribute("style")
                 break;
+            case "backward_":
+                viewer.loadScene("Aras Standort 2.1 vor dem Felsen_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
         }
     }
-    
+    if(currentScreen == "Aras Standort vor Brücke besonderheiten_Still"){
+        switch(hotspot){
+            case "up_1":
+                viewer.loadScene("Aras Standort 2.3 im Tunnel mood")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "info":
+                viewer.loadScene("Aras Standort vor Brücke Voliere zum Verlieben_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Aras Standort vor Brücke Voliere zum Verlieben_Still"){
+        switch(hotspot){
+            case"up_1":
+                viewer.loadScene("Aras Standort 2.3 im Tunnel mood")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case"up_2":
+                viewer.loadScene("Aras Standort 2.2 vor der Brücke_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case"forward_":
+                viewer.loadScene("Aras Standort 4 - Baumstamm_Still")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+        }
+    }
+    if(currentScreen == "Aras Standort 2.1 vor dem Felsen_Still"){
+
+        viewer.loadScene("Aras Standort vor Brücke besonderheiten_Still")
+        document.getElementById("panorama").removeAttribute("style")
+
+    }
     if(currentScreen === "Aras Standort 3 Auf der Brücke_Still"){
         
         switch(lastButton) {
@@ -2265,16 +3938,37 @@ player.on("ended", function() {
         }
     }
     if(currentScreen === "Aras Standort 2.2 vor der Brücke_Still"){
-        console.log(lastButton)
-        console.log(hotspot)
+                console.log(sceneToLoad)
+                viewer.loadScene(sceneToLoad)
+                document.getElementById("panorama").removeAttribute("style")
+                
+           
+    }
+    if(currentScreen == "Aras Standort 2.3 im Tunnel mood"){
         switch(hotspot){
-
-            case "backward_1":
-                viewer.loadScene("Aras Standort 3 Auf der Brücke_Still")
+            case "TierarztButton":
+                viewer.loadScene("Mood Tierärztin")
                 document.getElementById("panorama").removeAttribute("style")
                 break;
-            case "forward_":
-                viewer.loadScene("Aras Standort 4 - Baumstamm_Still")
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_1":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_2":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_3":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_4":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_5":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_6":
+                document.getElementById("panorama").removeAttribute("style")
+                break;
+            case "Aras_Standort_2_3_im_Tunnel_mood_info_7":
                 document.getElementById("panorama").removeAttribute("style")
                 break;
         }
@@ -2294,6 +3988,10 @@ player.on("ended", function() {
                 viewer.loadScene("Aras Standort 3 Auf der Brücke_Still")
                 document.getElementById("panorama").removeAttribute("style")
                 break;
+            case "up_1":
+                viewer.loadScene("Aras Standort 2.3 im Tunnel mood")
+                document.getElementById("panorama").removeAttribute("style")
+                break;
         }
     }
     if(currentScreen == "Aras Standort 5") {
@@ -2305,6 +4003,73 @@ player.on("ended", function() {
                 break;
         }
     }
+    if(currentScreen == "Intro Brillenpinguine"){
+        
+        switch(lastButton){
+    
+            case "Intro_Brillenpinguine_img_1":
+                
+                viewer.loadScene("Einleitung Brillenpinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "gehege":
+
+                viewer.loadScene("Gehege Brillenpinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+    }
+    if(currentScreen == "Einleitung Brillenpinguine_Still"){
+
+        switch(lastButton){
+    
+            case "info":
+
+                viewer.loadScene("Brillenpinguine - Besonderheiten_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+    }
+    if(currentScreen == "Brillenpinguine - Besonderheiten_Still") {
+
+        switch(lastButton){
+
+            case "Intro_Brillenpinguine_img_1":
+
+                viewer.loadScene("Gehege Brillenpinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+    }
+    if(currentScreen == "Gehege Brillenpinguine_Still") {
+    
+        switch (lastButton) {
+
+            case "up":
+                if(goon){
+                    document.getElementById("panorama").style.width = "0"
+                    document.getElementById("panorama").style.height = "0" 
+                    player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/80964/raw/media-80964-raw.mp4"})
+                    goon = false;
+                    break;
+                }else {
+                    document.getElementById("panorama").removeAttribute("style")
+                    break;
+                }
+        }
+    }
 })
 player2.on("ended", function() {
     if(currentScreen == "Roter Panda Gehege 2_Still" || "Quiz") {
@@ -2312,6 +4077,22 @@ player2.on("ended", function() {
         document.getElementById("panorama").removeAttribute("style")
         document.getElementById("video").removeAttribute("style")
 
+    }
+    if(currentScreen == "Elefanten_Einleitung_Still"){
+        
+        document.getElementById("panorama").removeAttribute("style")
+        document.getElementById("video").removeAttribute("style")
+
+    }
+    if(currentScreen == "Elefant - Wie kann geholfen werden"){
+
+        document.getElementById("panorama").removeAttribute("style")
+        document.getElementById("video").removeAttribute("style")
+
+    }
+    if(currentSceen == "Was bedroht den Elefanten") {
+        document.getElementById("panorama").removeAttribute("style")
+        document.getElementById("video").removeAttribute("style")
     }
 })
 }

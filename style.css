@@ -207,6 +207,21 @@ body{
     font-size: 30px;
     justify-content: center;
 }
+.up_2{
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78522/raw/media-78522-raw.png");
+    background-size: contain
+}
+.up_2 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
 
 .quiz {
     height: 160px;
@@ -251,8 +266,8 @@ body{
     background-size: contain
 }
 .drohne {
-    height: 160px;
-    width: 159px;
+    height: 250px;
+    width: 250px;
     background: url("https://cdn.mobfish.studio/zoowuppertal/media/78679/raw/media-78679-raw.png");
     background-size: contain
 }
@@ -914,4 +929,416 @@ body{
     width: 500px;
     background: url("https://cdn.mobfish.studio/zoowuppertal/media/82989/raw/media-82989-raw.png");
     background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_1 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_1 span {
+    position: absolute;
+    display: flex;
+    color: black;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_2 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_2 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_3 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_3 span {
+    position: absolute;
+    display: flex;
+    color: black;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_4 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_4 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_5 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_5 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_6 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_6 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_7 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_info_7 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.TierarztButton {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78724/raw/media-78724-raw.png");
+    background-size: contain
+}
+.TierarztButton span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_2_3_im_Tunnel_mood_img {
+    height: 250px;
+    width: 250px;
+    background: url("http://cdn.mobfish.studio/zoowuppertal/media/85702/raw/media-85702-raw.png");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_img:hover {
+    height: 334px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78710/raw/media-78710-raw.jpg");
+    background-size: contain
+}
+.Aras_Standort_2_3_im_Tunnel_mood_img span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Sonnensittich_Steckbrief {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/82988/raw/media-82988-raw.png");
+    background-size: contain
+}
+
+.Sonnensittich_Steckbrief:hover {
+    height: 510px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/84339/raw/media-84339-raw.png");
+    background-size: contain
+}
+.Sonnensittich_Steckbrief  span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Aras_Standort_vor_Brücke_Voliere_zum_Verlieben_Still_img {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/85702/raw/media-85702-raw.png");
+    background-size: contain
+}
+.Aras_Standort_vor_Brücke_Voliere_zum_Verlieben_Still_img:hover {
+    height: 334px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78723/raw/media-78723-raw.jpg");
+    background-size: contain
+}
+.Mood_Tierärztin_info_1 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Mood_Tierärztin_info_1 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Mood_Tierärztin_info_2 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Mood_Tierärztin_info_2 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Mood_Tierärztin_info_3 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Mood_Tierärztin_info_3 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Elefanten_Einleitung_Still_info_1 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+
+.Elefanten_Einleitung_Still_info_1 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.Elefanten_Einleitung_Still_info_2 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+
+.Elefanten_Einleitung_Still_info_2  span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.Elefanten_Einleitung_Still_Bedrohung {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/81235/raw/media-81235-raw.png");
+    background-size: contain
+}
+
+.Elefanten_Einleitung_Still_Bedrohung span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Elefantengehege_kommen_aus_Stall_Still_img_1{
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/85702/raw/media-85702-raw.png");
+    background-size: contain
+}
+.Elefantengehege_kommen_aus_Stall_Still_img_1:hover{
+    height: 334px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78729/raw/media-78729-raw.JPG");
+    background-size: contain
+}
+.Elefantengehege_kommen_aus_Stall_Still_img_2{
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/85702/raw/media-85702-raw.png");
+    background-size: contain
+}
+.Elefantengehege_kommen_aus_Stall_Still_img_2:hover{
+    height: 334px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78728/raw/media-78728-raw.jpg");
+    background-size: contain
+}
+.Elefantengehege_kommen_aus_Stall_Still_Steckbrief {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/82988/raw/media-82988-raw.png");
+    background-size: contain
+}
+.Elefantengehege_kommen_aus_Stall_Still_Steckbrief:hover {
+    height: 510px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/84346/raw/media-84346-raw.png");
+    background-size: contain
+}
+.Elefantengehege_spielen_mit_ast_Still_funfact {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Elefantengehege_spielen_mit_ast_Still_funfact:hover {
+    height: 157px;
+    width: 444px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/83562/raw/media-83562-raw.png");
+    background-size: contain
+}
+.Elefantengehege_intervention_Quiz_img_1 {
+    height: 133px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/93357/raw/media-93357-raw.png");
+    background-size: contain
+}
+.Elefantengehege_intervention_Quiz_img_2 {
+    height: 220px;
+    width: 464px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/93336/raw/media-93336-raw.png");
+    background-size: contain
+}
+.Elefantengehege_intervention_Quiz_img_3 {
+    height: 220px;
+    width: 464px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/93341/raw/media-93341-raw.png");
+    background-size: contain
+}
+.Elefantengehege_intervention_Quiz_img_4 {
+    height: 220px;
+    width: 464px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/93339/raw/media-93339-raw.png");
+    background-size: contain 
+}
+.Intro_Brillenpinguine_img_1 {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/80409/raw/media-80409-raw.png");
+    background-size: contain
+}
+.Intro_Brillenpinguine_img_1 span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+.Intro_Brillenpinguine_img_2 {
+    height: 293px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/82806/raw/media-82806-raw.png");
+    background-size: contain
+}
+.Intro_Brillenpinguine_img_3 {
+    height: 212px;
+    width: 444px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/81943/raw/media-81943-raw.png");
+    background-size: contain
+}
+.Gehege_Brillenpinguine_Still_funfact {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/78647/raw/media-78647-raw.png");
+    background-size: contain
+}
+.Gehege_Brillenpinguine_Still_funfact:hover {
+    height: 161px;
+    width: 444px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/83568/raw/media-83568-raw.png");
+    background-size: contain
+}
+.Gehege_Brillenpinguine_Still_funfact span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.Gehege_Brillenpinguine_Still_steckbrief {
+    height: 250px;
+    width: 250px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/82988/raw/media-82988-raw.png");
+    background-size: contain
+}
+.Gehege_Brillenpinguine_Still_steckbrief:hover {
+    height: 510px;
+    width: 500px;
+    background: url("https://cdn.mobfish.studio/zoowuppertal/media/84342/raw/media-84342-raw.png");
+    background-size: contain
+}
+.Gehege_Brillenpinguine_Still_steckbrief span {
+    position: absolute;
+    display: flex;
+    color: white;
+    width: 400px;
+    height: 20px;
+    font-size: 30px;
+    justify-content: center;
 }
