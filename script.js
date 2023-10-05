@@ -369,7 +369,7 @@ viewer = pannellum.viewer('panorama', {
                     "pitch": 0,
                     "yaw": 45.0,
                     "type": "scene",
-                    "sceneid": "",
+                    "sceneId": "Intro Pinguine",
                     "text": "",
                     "cssClass": "hpt_pinguin",
                     "clickHandlerFunc": onHotspotClick
@@ -2950,7 +2950,7 @@ viewer = pannellum.viewer('panorama', {
                 "yaw": 107.29, 
                 "type": "Scene",
                 "text": "Zurück", 
-                "sceneId": "",
+                "sceneId": "Intro Brillenpinguine",
                 "cssClass": "backward_", 
                 "createTooltipFunc": hotspot, 
                 "createTooltipArgs": "Zurück", 
@@ -3093,6 +3093,673 @@ viewer = pannellum.viewer('panorama', {
 
         ] 
     },
+
+
+    // Königspinguine & Eselspinguine
+
+
+    "Intro Pinguine": { 
+        "title": "Intro Pinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92991/raw/media-92991-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 15.71,
+                "yaw": -37.34,
+                "type": "Scene", 
+                "text": "Der Königs- und Eselspinguin",
+                "sceneId": "",
+                "cssClass": "Intro_Pinguine_img_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Der Königs- und Eselspinguin",
+                "clickHandlerFunc": onHotspotClick,
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 16.5,
+                "yaw": 34.18, 
+                "type": "Scene", 
+                "text": "Ins Gehege",
+                "sceneId": "",
+                "cssClass": "gehege",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ins Gehege",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.96, 
+                "yaw": 95.28, 
+                "type": "Scene", 
+                "text": "Hauptmenü",
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -6.03, 
+                "yaw": -19.56, 
+                "type": "Info", 
+                "text": "Pinguin", 
+                "sceneId": "",
+                "cssClass": "Intro_Pinguine_img_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 3.46, 
+                "yaw": 3.36, 
+                "type": "Info", 
+                "text": "Pinguin", 
+                "sceneId": "",
+                "cssClass": "Intro_Pinguine_img_3", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -23.03,
+                "yaw": 2.57, 
+                "type": "Info", 
+                "text": "Begruessung Eselspinguine", 
+                "sceneId": "",
+                "cssClass": "Intro_Pinguine_img_4", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ] 
+    },
+    "Einleitung Königs-Pinguine_Still": { 
+        "title": "Einleitung Königs-Pinguine", 
+        "hfov": 110,
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/82416/raw/media-82416-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 7.2, 
+                "yaw": -65.76, 
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 24.96, 
+                "yaw": -36.84, 
+                "type": "Scene", 
+                "text": "Besonderheiten der Beleuchtung", 
+                "sceneId": "",
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Besondere Beleuchtung", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 6.6, 
+                "yaw": 18.24, 
+                "type": "Info", 
+                "text": "Nicht Gefährdet", 
+                "sceneId": "",
+                "cssClass": "Einleitung_Königs-Pinguine_Still_gefährdung",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 4.08, 
+                "yaw": 58.56, 
+                "type": "Scene", 
+                "text": "Zu den Brillenpinguinen",
+                "sceneId": "",
+                "cssClass": "gehege_1", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "Zu den Brillenpinguinen",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 13.68, 
+                "yaw": 131.22, 
+                "type": "Scene",
+                "text": "Hauptmenü",
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 12.06, 
+                "yaw": 159.45, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Intro Pinguine",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ] 
+    },
+    "Im Gehege der Königspinguine_Still": { 
+        "title": "Im Gehege der Königspinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92966/raw/media-92966-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.36,
+                "yaw": -102.42,
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.36,
+                "yaw": -124.74, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Intro Pinguine",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.36, 
+                "yaw": -78.66, 
+                "type": "Scene", 
+                "text": "Weiter",
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 15.38, 
+                "yaw": -33.66, 
+                "type": "Info", 
+                "text": "Speaker",
+                "sceneId": "",
+                "cssClass": "audio", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.72, 
+                "yaw": 82.26, 
+                "type": "Info", 
+                "text": "Steckbrief", 
+                "sceneId": "",
+                "cssClass": "Im_Gehege_der_Königspinguine_Still_Steckbrief", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Steckbrief", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+        ] 
+    },
+    "Im Gehege der Königspinguine pos 1": { 
+        "title": "Im Gehege der Königspinguine pos 1", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92966/raw/media-92966-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.36,
+                "yaw": -102.42,
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.36,
+                "yaw": -124.74, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Im Gehege der Königspinguine_Still",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.36, 
+                "yaw": -78.66, 
+                "type": "Scene", 
+                "text": "Weiter",
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": 148.92, 
+                "type": "Info", 
+                "text": "Funfact",
+                "sceneId": "",
+                "cssClass": "Im_Gehege_der_Königspinguine_pos_1_funfact", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Funfact", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ] 
+    },
+    "Im Gehege der Königspinguine pos 2": { 
+        "title": "Im Gehege der Königspinguine pos 2", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92966/raw/media-92966-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.36,
+                "yaw": -102.42,
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.36,
+                "yaw": -124.74, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Im Gehege der Königspinguine pos 1",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.36, 
+                "yaw": -78.66, 
+                "type": "Scene", 
+                "text": "Weiter",
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Weiter", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": 148.92, 
+                "type": "Info", 
+                "text": "Funfact",
+                "sceneId": "",
+                "cssClass": "Im_Gehege_der_Königspinguine_pos_2_funfact", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Funfact", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ] 
+    },
+    "Fütterung Königspinguine_Still": { 
+        "title": "Fütterung Königspinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92963/raw/media-92963-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.1, 
+                "yaw": -51.57, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": -117.48, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Im Gehege der Königspinguine pos 2",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.36, 
+                "yaw": -10.98,
+                "type": "Info", 
+                "text": "Quiz", 
+                "sceneId": "Fütterung Königspinguine_Still_Quiz",
+                "cssClass": "quiz", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Quiz", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+        ] 
+    },
+    "Fütterung Königspinguine_Still_Quiz": { 
+        "title": "Fütterung Königspinguine", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": -10.98, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92963/raw/media-92963-raw.png?",
+
+        "hotSpots": [ 
+
+            {
+                "pitch": -0.1, 
+                "yaw": -51.57, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.6, 
+                "yaw": -117.48, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Im Gehege der Königspinguine pos 2",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 20, 
+                "yaw": -10.98,
+                "type": "Info", 
+                "text": "Quiz_1", 
+                "sceneId": "",
+                "cssClass": "Fütterung_Königspinguine_Still_Quiz_img_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+            {
+                "pitch": -0.36, 
+                "yaw": -35.98,
+                "type": "Info", 
+                "text": "Quiz_1", 
+                "cssClass": "Fütterung_Königspinguine_Still_Quiz_img_2", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+            {
+                "pitch": -0.36, 
+                "yaw": -10.98,
+                "type": "Info", 
+                "text": "Quiz_1", 
+                "cssClass": "Fütterung_Königspinguine_Still_Quiz_img_3", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+            {
+                "pitch": -0.36, 
+                "yaw": 15.98,
+                "type": "Info", 
+                "text": "Quiz_1", 
+                "cssClass": "Fütterung_Königspinguine_Still_Quiz_img_4", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+        ] 
+    },
+    "Pinguine Beleuchtung_Still": { 
+        "title": "Pinguine Beleuchtung", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/82416/raw/media-82416-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 14.4,
+                "yaw": 124.38, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 14.52, 
+                "yaw": 158.27, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -7.44, 
+                "yaw": -87.6, 
+                "type": "Scene", 
+                "text": "Der Wassertunnel", 
+                "sceneId": "",
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Der Wassertunnel",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 7.2, 
+                "yaw": -65.76, 
+                "type": "Scene", 
+                "text": "Ab ins Gehege", 
+                "sceneId": "",
+                "cssClass": "gehege",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Ab ins Gehege", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.24, 
+                "yaw": 52.8,
+                "type": "Scene",
+                "text": "Zu den Brillenpinguinen", 
+                "sceneId": "",
+                "cssClass": "gehege_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zu den Brillenpinguinen", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+
+            {
+                "pitch": 24.96,
+                "yaw": -36.84,
+                "type": "Scene", 
+                "text": "Besonderheiten der Beleuchtung", 
+                "sceneId": "",
+                "cssClass": "info_1", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Besonderheiten der Beleuchtung", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -16.38, 
+                "yaw": 46.23, 
+                "type": "Info", 
+                "text": "Begrüßung Pinguine", 
+                "sceneId": "",
+                "cssClass": "Intro_Pinguine_img_4", 
+                "createTooltipFunc": hotspot,
+                "createTooltipArgs": "",
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ]
+    },
+    "Der Wassertunnel_Still": { 
+        "title": "Der Wassertunnel", 
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/82417/raw/media-82417-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 11.04, 
+                "yaw": -127.2, 
+                "type": "Scene",
+                "text": "Die Pinguinale", 
+                "sceneId": "",
+                "cssClass": "info", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Die Pinguinale", 
+                "clickHandlerFunc": onHotspotClick,
+            }, 
+
+            {
+                "pitch": 1.08, 
+                "yaw": -133.74, 
+                "type": "Scene", 
+                "text": "Zurueck", 
+                "sceneId": "Pinguine Beleuchtung_Still",
+                "cssClass": "backward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+        ]
+    },
+    "Zooverein Wassertunel_Still": {
+        "title": "Zooverein Wassertunnel",
+        "hfov": 110, 
+        "pitch": 0, 
+        "yaw": 360, 
+        "type": "equirectangular",
+        "panorama": "https://cdn.mobfish.studio/zoowuppertal/media/92989/raw/media-92989-raw.png?", 
+
+        "hotSpots": [ 
+
+            {
+                "pitch": 0.36, 
+                "yaw": -141.3, 
+                "type": "Scene", 
+                "text": "Hauptmenü", 
+                "sceneId": "menü",
+                "cssClass": "home",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Hauptmenü", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": -0.36, 
+                "yaw": -96.3, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Aras Standort 2.3 im Tunnel mood",
+                "cssClass": "backward_",
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück nach Aralandia",
+                "clickHandlerFunc": onHotspotClick,
+            },
+
+            {
+                "pitch": 0.72, 
+                "yaw": 92.7, 
+                "type": "Scene", 
+                "text": "Zurück", 
+                "sceneId": "Der Wassertunnel_Still",
+                "cssClass": "forward_", 
+                "createTooltipFunc": hotspot, 
+                "createTooltipArgs": "Zurück zu den Pinguinen", 
+                "clickHandlerFunc": onHotspotClick,
+            },
+        ]
+    }
     }
 });
 player = videojs('video', {
@@ -3547,7 +4214,7 @@ if(currentScreen == "Aras Standort 2.3 im Tunnel mood"){
         case "Aras_Standort_2_3_im_Tunnel_mood_info_4":
             document.getElementById("panorama").style.width = "0"
             document.getElementById("panorama").style.height = "0" 
-            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82044/raw/media-82044-raw.mp4"})
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82050/raw/media-82050-raw.mp4"})
             break;
         case "Aras_Standort_2_3_im_Tunnel_mood_info_5":
             document.getElementById("panorama").style.width = "0"
@@ -3688,6 +4355,181 @@ if(currentScreen == "Gehege Brillenpinguine_Still") {
             break;
     }
 }
+if(currentScreen == "Intro Pinguine"){
+    switch(lastButton){
+        case "Intro_Pinguine_img_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82164/raw/media-82164-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81864/raw/media-81864-raw.mp4"})
+            break;
+    }
+}
+if(currentScreen == "Einleitung Königs-Pinguine_Still"){
+
+    switch(lastButton) {
+
+        case "gehege_1":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82052/raw/media-82052-raw.mp4"})
+            break;
+        case "gehege":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81864/raw/media-81864-raw.mp4"})
+            break;
+        case "info":
+            document.getElementById("panorama").style.width = "0"
+            document.getElementById("panorama").style.height = "0" 
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82045/raw/media-82045-raw.mp4"})
+            break;
+    }
+
+}
+if(currentScreen == "Im Gehege der Königspinguine_Still"){
+    switch(lastButton){
+        
+        case "audio":
+            
+            playSound("https://cdn.mobfish.studio/zoowuppertal/media/81242/raw/media-81242-raw.mp3")
+
+            break;
+
+        case "forward_":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81861/raw/media-81861-raw.mp4"})
+
+            break;
+
+    }
+}
+if(currentScreen == "Im Gehege der Königspinguine pos 1"){
+
+    switch(lastButton) {
+
+        case "forward_":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81862/raw/media-81862-raw.mp4"})
+
+            break;
+    }
+
+}
+if(currentScreen == "Im Gehege der Königspinguine pos 2"){
+
+    switch(lastButton) {
+
+        case "forward_":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81863/raw/media-81863-raw.mp4"})
+
+            break;
+    }
+
+}
+if(currentScreen == "Fütterung Königspinguine_Still_Quiz") {
+
+    switch(lastButton){
+
+        case "Fütterung_Königspinguine_Still_Quiz_img_1":
+
+            playSound("https://cdn.mobfish.studio/zoowuppertal/media/81794/raw/media-81794-raw.mp3")
+            break;
+        case "Fütterung_Königspinguine_Still_Quiz_img_2":
+            hotspotElement.setAttribute("style","border: 8px solid red; border-radius: 6px;")
+            break;
+        case "Fütterung_Königspinguine_Still_Quiz_img_3":
+            hotspotElement.setAttribute("style","border: 8px solid red; border-radius: 6px;")
+            break;
+        case "Fütterung_Königspinguine_Still_Quiz_img_4":
+            playSound("https://cdn.mobfish.studio/zoowuppertal/media/81795/raw/media-81795-raw.mp3")
+            hotspotElement.setAttribute("style","border: 8px solid lime; border-radius: 6px;")
+            setTimeout(()=> {
+                viewer.loadScene("Fütterung Königspinguine_Still")
+            },8000);
+            break;
+    }
+
+}
+if(currentScreen == "Pinguine Beleuchtung_Still"){
+
+    switch(lastButton){
+
+        case "gehege":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/81864/raw/media-81864-raw.mp4"})
+
+            break;
+
+        case "gehege_1":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82052/raw/media-82052-raw.mp4"})
+
+            break;
+
+        case "info_1":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82045/raw/media-82045-raw.mp4"})
+
+            break;
+        
+        case "info":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82115/raw/media-82115-raw.mp4"})
+
+            break;
+
+    }
+}
+if(currentScreen == "Der Wassertunnel_Still"){
+
+    switch(lastButton) {
+
+        case "info":
+
+            document.getElementById("panorama").style.width = "0"
+
+            document.getElementById("panorama").style.height = "0" 
+
+            player.src({type: "video/mp4", src:"https://cdn.mobfish.studio/zoowuppertal/media/82050/raw/media-82050-raw.mp4"})
+
+            break;
+    }
+
+}
 };
 
 viewer.on('scenechange', function(sceneid) {
@@ -3713,6 +4555,9 @@ viewer.on('scenechange', function(sceneid) {
             backgroundSound.loop = true; 
         }
 
+    }
+    if(sceneid == "Fütterung Königspinguine_Still_Quiz"){
+        playSound("https://cdn.mobfish.studio/zoowuppertal/media/81794/raw/media-81794-raw.mp3")
     }
     if(sceneid == "Quiz") {
             
@@ -3894,7 +4739,7 @@ player.on("ended", function() {
         }
     }
     if(currentScreen == "Aras Standort vor Brücke besonderheiten_Still"){
-        switch(hotspot){
+        switch(lastButton){
             case "up_1":
                 viewer.loadScene("Aras Standort 2.3 im Tunnel mood")
                 document.getElementById("panorama").removeAttribute("style")
@@ -3945,7 +4790,7 @@ player.on("ended", function() {
            
     }
     if(currentScreen == "Aras Standort 2.3 im Tunnel mood"){
-        switch(hotspot){
+        switch(lastButton){
             case "TierarztButton":
                 viewer.loadScene("Mood Tierärztin")
                 document.getElementById("panorama").removeAttribute("style")
@@ -3960,6 +4805,7 @@ player.on("ended", function() {
                 document.getElementById("panorama").removeAttribute("style")
                 break;
             case "Aras_Standort_2_3_im_Tunnel_mood_info_4":
+                viewer.loadScene("Zooverein Wassertunel_Still")
                 document.getElementById("panorama").removeAttribute("style")
                 break;
             case "Aras_Standort_2_3_im_Tunnel_mood_info_5":
@@ -4069,6 +4915,159 @@ player.on("ended", function() {
                     break;
                 }
         }
+    }
+    if(currentScreen == "Intro Pinguine"){
+
+        switch(lastButton){
+
+            case "Intro_Pinguine_img_1":
+
+                viewer.loadScene("Einleitung Königs-Pinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "gehege":
+
+                viewer.loadScene("Im Gehege der Königspinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+
+        }
+
+    }
+    if(currentScreen == "Einleitung Königs-Pinguine_Still"){
+
+        switch(lastButton) {
+    
+            case "gehege_1":
+
+                viewer.loadScene("Einleitung Brillenpinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "gehege":
+
+                viewer.loadScene("Im Gehege der Königspinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "info":
+                
+                viewer.loadScene("Pinguine Beleuchtung_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+
+        }
+
+    }
+    if(currentScreen == "Im Gehege der Königspinguine_Still"){
+
+        switch(lastButton){
+
+            case "forward_":
+
+                viewer.loadScene("Im Gehege der Königspinguine pos 1")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+        }
+
+    }
+    if(currentScreen == "Im Gehege der Königspinguine pos 1"){
+
+        switch(lastButton) {
+    
+            case "forward_":
+
+                viewer.loadScene("Im Gehege der Königspinguine pos 2")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+
+    }
+
+    if(currentScreen == "Im Gehege der Königspinguine pos 2"){
+
+        switch(lastButton) {
+    
+            case "forward_":
+
+                viewer.loadScene("Fütterung Königspinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+
+    }
+    if(currentScreen == "Pinguine Beleuchtung_Still"){
+
+        switch(lastButton){
+
+            case "gehege":
+
+                viewer.loadScene("Im Gehege der Königspinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "gehege_1":
+
+                viewer.loadScene("Einleitung Brillenpinguine_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "info":
+
+                viewer.loadScene("Der Wassertunnel_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+            case "info_1":
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+
+    }
+    if(currentScreen == "Der Wassertunnel_Still"){
+
+        switch(lastButton) {
+    
+            case "info":
+
+                viewer.loadScene("Zooverein Wassertunel_Still")
+
+                document.getElementById("panorama").removeAttribute("style")
+
+                break;
+
+        }
+
     }
 })
 player2.on("ended", function() {
